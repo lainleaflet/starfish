@@ -1,10 +1,13 @@
+
 html, body {
-  margin: 100;
-  padding: 10;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  background-color:#5F5566;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #5F5566;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
 }
 canvas {
   display: block;

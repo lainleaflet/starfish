@@ -1,2 +1,2 @@
 # starfish
-p5.js sketch
+animated p5.js sketch

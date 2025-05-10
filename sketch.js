@@ -4,7 +4,7 @@ let backgroundColor;
 
 function setup() {
   createCanvas(600, 400);
-  for (let i = 0; i < 185; i++){
+  for (let i = 0; i < 200; i++){
      plants.push(new Plant(random(0,width), random(0,height)));
     //plants.push(new Plant(width/2, height/2));
   }

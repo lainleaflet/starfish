@@ -5,7 +5,7 @@
     this.branches = [];
     this.leaves = [];
     this.count = 0;
-    this.speed = random(-0.8,0.8);
+    this.speed = random(-0.65,0.65);
     this.offset = int(random(0,1000));
     
     let numLines = Math.floor(random(5,10));
@@ -13,8 +13,8 @@
     let a = createVector(x, y);
     for(let i = 0; i<numLines; i++){
       let angle = angSpacing * i;
-      let endX = x+cos(angle)*(20);
-      let endY = y+sin(angle)*(20);
+      let endX = x+cos(angle)*(15);
+      let endY = y+sin(angle)*(15);
       let b = createVector(endX, endY);
       let root = new Branch(a,b);
       this.branches.push(root);
